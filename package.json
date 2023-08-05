@@ -9,11 +9,22 @@
     "slides:dev": "vite",
     "animation:build": "cd animations && npm run build",
     "build": "npm run animation:build && tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "npm run eslint && npm run prettier",
+    "format": "npm run eslint:fix && npm run prettier:fix",
+    "eslint": "eslint \"**/*.ts?(x)\"",
+    "eslint:fix": "eslint --fix \"**/*.ts?(x)\"",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write ."
   },
   "devDependencies": {
     "@types/reveal.js": "^4.4.2",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
     "concurrently": "^8.2.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "prettier": "^3.0.1",
     "reveal.js": "^4.5.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",

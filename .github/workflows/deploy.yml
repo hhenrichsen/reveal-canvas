@@ -36,7 +36,6 @@ jobs:
 
       - name: Build project
         run: npm run build -- --base=/reveal-canvas/
-          
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
