@@ -1,19 +1,13 @@
-name: Build
+name: Deploy
 
 on:
-  pull_request:
-    types: [opened, reopened, synchronize, edited]
-    branches-ignore:
-      - 'nobuild**'
   push:
     branches:
       - main
-    tags:
-      - 'v*.*.*'
 
 jobs:
   build:
-    name: Build
+    name: Deploy
     runs-on: ubuntu-latest
 
     steps:
@@ -32,3 +26,9 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
