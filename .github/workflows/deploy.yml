@@ -35,7 +35,7 @@ jobs:
         working-directory: animations
 
       - name: Build project
-        run: npm run build -- --base=/reveal-canvas/
+        run: npm run build -- --base=/${{ github.event.repository.name }}/
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
