@@ -7,9 +7,9 @@ export default defineConfig({
       targets: [
         {
           src: 'public/animations',
-          dest: 'public'
-        }
-      ]
-    })
+          dest: 'public',
+        },
+      ],
+    }),
   ],
 });
