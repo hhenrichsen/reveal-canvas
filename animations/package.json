@@ -16,6 +16,6 @@
     "@motion-canvas/vite-plugin": "^3.10.0",
     "glob": "^10.3.3",
     "typescript": "^5.1.6",
-    "vite": "^4.1.4"
+    "vite": "^4.4.9"
   }
 }
