@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@motion-canvas/2d": "^3.12.4",
-    "@motion-canvas/core": "^3.12.1"
+    "@motion-canvas/core": "^3.13.0"
   },
   "devDependencies": {
     "@motion-canvas/ui": "^3.12.4",
