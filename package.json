@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "@motion-canvas/core": "^3.14.1",
-    "@motion-canvas/player": "^3.14.1"
+    "@motion-canvas/player": "^3.15.1"
   }
 }
