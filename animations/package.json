@@ -8,7 +8,7 @@
     "watch": "vite build --watch --emptyOutDir"
   },
   "dependencies": {
-    "@motion-canvas/2d": "^3.15.2",
+    "@motion-canvas/2d": "^3.16.0",
     "@motion-canvas/core": "^3.13.0"
   },
   "devDependencies": {
