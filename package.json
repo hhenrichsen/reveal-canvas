@@ -27,7 +27,7 @@
     "prettier": "^3.4.1",
     "reveal.js": "^5.1.0",
     "typescript": "^5.7.2",
-    "vite": "^6.0.1",
+    "vite": "^6.0.2",
     "vite-plugin-static-copy": "^2.2.0"
   },
   "dependencies": {
