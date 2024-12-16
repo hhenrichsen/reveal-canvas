@@ -31,7 +31,7 @@
     "vite-plugin-static-copy": "^2.2.0"
   },
   "dependencies": {
-    "@motion-canvas/core": "^3.17.0",
+    "@motion-canvas/core": "^3.17.2",
     "@motion-canvas/player": "^3.17.0"
   }
 }
