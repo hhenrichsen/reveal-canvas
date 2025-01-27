@@ -18,7 +18,7 @@
     "prettier:fix": "prettier --write ."
   },
   "devDependencies": {
-    "@types/reveal.js": "^5.0.4",
+    "@types/reveal.js": "^5.0.5",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^6.21.0",
     "concurrently": "^9.1.2",
