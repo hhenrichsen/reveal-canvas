@@ -15,7 +15,7 @@
     "@motion-canvas/ui": "^3.17.2",
     "@motion-canvas/vite-plugin": "^3.17.2",
     "glob": "^11.0.1",
-    "typescript": "^5.7.3",
+    "typescript": "^5.8.2",
     "vite": "^5.4.11"
   }
 }
