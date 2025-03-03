@@ -28,7 +28,7 @@
     "reveal.js": "^5.1.0",
     "typescript": "^5.7.3",
     "vite": "^6.2.0",
-    "vite-plugin-static-copy": "^2.2.0"
+    "vite-plugin-static-copy": "^2.3.0"
   },
   "dependencies": {
     "@motion-canvas/core": "^3.17.2",
