@@ -24,7 +24,7 @@
     "concurrently": "^9.1.2",
     "eslint": "^8.57.1",
     "eslint-plugin-tsdoc": "^0.4.0",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.0",
     "reveal.js": "^5.2.1",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
