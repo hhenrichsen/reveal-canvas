@@ -25,7 +25,7 @@
     "eslint": "^8.57.1",
     "eslint-plugin-tsdoc": "^0.5.2",
     "prettier": "^3.8.1",
-    "reveal.js": "^5.2.1",
+    "reveal.js": "^6.0.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
     "vite-plugin-static-copy": "^3.2.0"
